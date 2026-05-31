@@ -418,8 +418,13 @@
     font-size: 0.95rem; font-weight: 700;
     color: var(--gold); margin-bottom: 0.7rem;
     line-height: 1.4;
+    min-height: 2.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
   }
-  .flow-body { font-size: 0.76rem; color: var(--silver); line-height: 1.8; }
+  .flow-body { font-size: 0.82rem; color: var(--silver); line-height: 1.75; text-align: left; }
 
   /* ── PROFILE ── */
   #profile {
@@ -576,7 +581,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#hero" class="nav-brand">Ctrl+Shift</a>
+  <a href="#hero" class="nav-brand">森美知子</a>
   <ul class="nav-links">
     <li><a href="#pain">お悩み</a></li>
     <li><a href="#services">サービス</a></li>
@@ -652,32 +657,32 @@
         <span class="pain-emoji">😓</span>
         <div class="pain-head">本業に集中できない</div>
         <div class="pain-divider"></div>
-        <p class="pain-body">雑務・問い合わせ・調整事に追われて、大事な仕事に集中できない</p>
+        <p class="pain-body">事務を優先すると売上を生む仕事が後回しになる…</p>
       </div>
       <div class="pain-card fade-up" style="transition-delay:0.1s">
         <div class="pain-num">02</div>
         <span class="pain-emoji">📋</span>
         <div class="pain-head">バックオフィスが混乱</div>
         <div class="pain-divider"></div>
-        <p class="pain-body">書類・経費・請求…属人化していてどこに何があるかわからない</p>
+        <p class="pain-body">苦手な事務に時間もストレスもかかり続ける…</p>
       </div>
       <div class="pain-card fade-up" style="transition-delay:0.2s">
         <div class="pain-num">03</div>
         <span class="pain-emoji">🛠️</span>
-        <div class="pain-head">ツールを活かせない</div>
+        <div class="pain-head">やりたいことが止まっている</div>
         <div class="pain-divider"></div>
-        <p class="pain-body">便利なツールを入れたいけど設定・運用できる人がいない</p>
+        <p class="pain-body">採用・新サービス…着手できないまま時間だけ過ぎていく</p>
       </div>
       <div class="pain-card fade-up" style="transition-delay:0.3s">
         <div class="pain-num">04</div>
         <span class="pain-emoji">👥</span>
-        <div class="pain-head">採用が後手に回る</div>
+        <div class="pain-head">人を雇うほどでは<br>ないけれど…</div>
         <div class="pain-divider"></div>
-        <p class="pain-body">採用したいのに媒体管理や応募者対応まで手が回らない</p>
+        <p class="pain-body">でも確実に手が足りていない。この中途半端さが一番つらい</p>
       </div>
     </div>
     <div class="pain-banner fade-up">
-      <p>すべて、Ctrl+Shift にお任せください。</p>
+      <p>すべて、私たちにお任せください。</p>
     </div>
   </div>
 </section>
@@ -710,8 +715,8 @@
         </div>
         <div class="service-body">
           <ul>
-            <li>請求書・見積書・給与明細の作成</li>
-            <li>経費承認・集計・会計ソフト入力</li>
+            <li>請求書・見積書・給与計算</li>
+            <li>会計ソフト入力</li>
             <li>各種SaaSアカウント管理</li>
           </ul>
         </div>
@@ -726,7 +731,7 @@
             <li>求人票作成・採用媒体管理</li>
             <li>応募者対応</li>
             <li>初回面談担当（要相談）</li>
-            <li>人事制度設計サポート（Tegajin）</li>
+            <li>人事制度設計サポート（※別途御見積）</li>
           </ul>
         </div>
       </div>
@@ -737,7 +742,7 @@
         </div>
         <div class="service-body">
           <ul>
-            <li>GAS・マクロで業務を自動化</li>
+            <li>GAS・マクロで業務を自動化（※別途御見積）</li>
             <li>集計・通知の自動化設計</li>
             <li>一部SaaS設定・導入サポート</li>
           </ul>
@@ -758,34 +763,34 @@
     <div class="voice-grid">
       <div class="voice-card fade-up">
         <div class="voice-quote-mark">"</div>
-        <p class="voice-text">こちらの予想以上の仕上がりでスピーディーに仕上がってきて、素晴らしすぎる！シゴデキ♡</p>
+        <p class="voice-text">結構ストレスになっていた面倒な業務をミスなく素速く引き受けてくれて、はやっ！助かってます！</p>
         <div class="voice-footer">
-          <span class="voice-tag">IT・効率化</span>
-          <span class="voice-context">ヒアリングシートのスプレッドシート作成</span>
+          <span class="voice-tag">経理サポート</span>
+          <span class="voice-context">請求書・給与計算・領収書格納などの経理業務</span>
         </div>
       </div>
       <div class="voice-card fade-up" style="transition-delay:0.1s">
         <div class="voice-quote-mark">"</div>
-        <p class="voice-text">はやっ！助かってます！ストレスになっていた面倒な業務をミスなく素速く引き受けてくれた</p>
+        <p class="voice-text">やりたいと思っていても止まってしまっていることを確実に進めてくれるのでめちゃくちゃありがたい</p>
         <div class="voice-footer">
-          <span class="voice-tag">経理サポート</span>
-          <span class="voice-context">領収書格納・経理業務</span>
+          <span class="voice-tag">プロマネ・実務</span>
+          <span class="voice-context">プロジェクト管理から実務まで幅広くサポート</span>
         </div>
       </div>
       <div class="voice-card fade-up" style="transition-delay:0.2s">
         <div class="voice-quote-mark">"</div>
-        <p class="voice-text">こちらがいちいち指示しなくても意図を汲んで役立つ動きをしてくれる。早い、無茶ぶりでも依頼しやすい</p>
+        <p class="voice-text">サポートいただくようになってから業務がスムーズになった</p>
         <div class="voice-footer">
-          <span class="voice-tag">プロマネ</span>
-          <span class="voice-context">プロジェクトマネジメント業務</span>
+          <span class="voice-tag">経理・秘書業務</span>
+          <span class="voice-context">請求書・見積書・日報集計・スケジュール管理（決算後に臨時ボーナスいただきました✨）</span>
         </div>
       </div>
       <div class="voice-card fade-up" style="transition-delay:0.3s">
         <div class="voice-quote-mark">"</div>
-        <p class="voice-text">依頼して「完了しました」と送ってくれるスピードに毎回「早！！」と驚いています</p>
+        <p class="voice-text">森さんのおかげで無事乗り切れました！また来年もよろしくお願い致します</p>
         <div class="voice-footer">
-          <span class="voice-tag">スピード感</span>
-          <span class="voice-context">各種事務作業</span>
+          <span class="voice-tag">補助金申請</span>
+          <span class="voice-context">補助金事業化報告サポート（2か月半の継続サポート）</span>
         </div>
       </div>
     </div>
@@ -868,7 +873,7 @@
         <p style="font-size:0.85rem;color:var(--gray);line-height:2;">業務フローの見直し・AI活用・自動化ツールの導入をご検討の方に。現状の課題をヒアリングした上で、最適な効率化の設計をご提案します。まずはお気軽にご相談ください。</p>
       </div>
     </div>
-    <p class="pricing-note fade-up">※ 業務内容・時間はご相談に応じて柔軟に対応いたします</p>
+    <p class="pricing-note fade-up">※ 月額プランは初回3ヶ月契約。業務内容・時間はご相談に応じて柔軟に対応いたします</p>
   </div>
 </section>
 
@@ -883,7 +888,7 @@
       <div class="flow-step fade-up">
         <div class="flow-num">01</div>
         <span class="flow-emoji">💬</span>
-        <div class="flow-title">無料相談・<br>ヒアリング</div>
+        <div class="flow-title">無料相談・ヒアリング</div>
         <p class="flow-body">まずはメール・DMでご連絡ください。30分のオンライン相談で現状をお聞きします。</p>
       </div>
       <div class="flow-step fade-up" style="transition-delay:0.1s">
@@ -937,7 +942,7 @@
             <div class="profile-section-bar"></div>
             <span class="profile-section-name">経歴</span>
           </div>
-          <p class="profile-text">三菱電機グループの人事・労務業務に10年従事。<br>ExcelやRPAを使って、これまで手作業で何時間もかかっていた業務を"自動で進む仕組み"に変え、<strong>年間400時間の削減を実現</strong>しました。</p>
+          <p class="profile-text">三菱電機グループを含む大手企業で人事・労務業務に9年従事。<br>ExcelやRPAを使って、これまで手作業で何時間もかかっていた業務を"自動で進む仕組み"に変え、<strong>年間400時間の削減を実現</strong>しました。</p>
         </div>
         <div class="profile-section">
           <div class="profile-section-label">
@@ -977,8 +982,8 @@
 
 <!-- FOOTER -->
 <footer>
-  <span class="footer-brand">Ctrl+Shift</span>
-  <p>© 2025 森 美知子 / Ctrl+Shift　All rights reserved.</p>
+  <span class="footer-brand">森美知子</span>
+  <p>© 2025 森 美知子　All rights reserved.</p>
 </footer>
 
 <script>
